@@ -1,0 +1,15 @@
+if(x.length < 6){
+    document.getElementById("error").innerHTML= "Should be atleast 6 character";
+ return false;
+ }
+ else if(x.search(/^[A-Za-z]\w{6,}$/) == -1){
+    document.getElementById("error").innerHTML = "Should start with alphabet";
+ return false;
+ }
+ else{
+    document.getElementById("error").innerHTML="";
+ return true;
+ }
+ }
+ </script>
+</html>
