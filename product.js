@@ -57,7 +57,6 @@ padding-right: 30px;
  
 </body>
 <script>
-  // function to check listbox validation
   (function() {
   const form = document.querySelector('#sectionForm');
   const checkboxes = form.querySelectorAll('input[type=checkbox]');
@@ -83,6 +82,5 @@ padding-right: 30px;
   }
   init();
   })();
-  // function to check supplier name
   function checkForm(){
   var x = document.getElementById("sname").value;
